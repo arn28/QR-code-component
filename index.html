@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    :root{
+      /* Colors */
+      --light-gray: hsl(212, 45%, 89%);
+      --grayish-blue: hsl(220, 15%, 55%);
+      --dark-blue: hsl(218, 44%, 22%);
+      --white: hsl(0, 0%, 100%);
+    }
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+      font-size: var(--para);
+    }
+
+    .qrComponent{
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--light-gray);
+    }
+    .componentContainer{
+      width: 320px;
+      height: 500px;
+      padding: 16px;
+      background-color: var(--white);
+      border-radius: 15px;
+    }
+    .componentContainer .qrImage img{
+      width: 286px;
+      border-radius: 10px;
+    }
+
+    .componentContainer p{
+      display: block;
+      font-size: 15px;
+      font-weight: 400;
+      text-align: center;
+      color: var(--grayish-blue);
+      padding: 12px;
+    }
+
+    .componentContainer p:nth-child(2){
+      color: var(--dark-blue);
+      font-weight: 700;
+      font-size: 20px;
+      margin-top: 12px;
+    }
+
+    .attribution { 
+      font-size: 10px; 
+      text-align: center;
+      color: var(--grayish-blue); 
+    }
+
+    .attribution a { 
+      font-size: 10px; 
+      color: var(--grayish-blue); 
+    }
+  </style>
+</head>
+<body>
+  <div class="qrComponent">
+    <div class="componentContainer">
+      <div class="qrImage">
+        <img src="images/image-qr-code.png" alt="QR Code"> 
+      </div>
+
+      <p>
+        Improve your front-end skills by building projects
+      </p>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/arn28">Arnold Balabarca</a>.
+    </div>
+  </div>
+  
+  
+</body>
+</html>
