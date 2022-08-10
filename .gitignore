@@ -15,5 +15,5 @@
 .DS_Store
 .prettierignore
 #Avoid file compresed
-.zip
-.rar
+*.zip
+*.rar
