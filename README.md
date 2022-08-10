@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/arn28/product-preview-card-component-FrontendMentor)
-- Live Site URL: [Vercel](https://product-preview-card-component-frontend-mentor.vercel.app/)
+- Solution URL: [GitHub](https://github.com/arn28/QR-code-component.git)
+- Live Site URL: [Vercel](https://qr-code-component-eta-eight.vercel.app/)
 
 ## My process
 
